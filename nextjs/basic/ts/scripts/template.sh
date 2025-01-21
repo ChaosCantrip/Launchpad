@@ -10,6 +10,7 @@ git clone https://github.com/ChaosCantrip/Launchpad.git temp_repo
 echo "Copying files..."
 cp -r temp_repo/nextjs/basic/ts/.gitignore ./.gitignore
 cp -r temp_repo/nextjs/basic/ts/src/* ./src/
+cp -r temp_repo/nextjs/basic/js/public/* ./public/
 
 echo "Removing temporary repository..."
 rm -rf temp_repo
