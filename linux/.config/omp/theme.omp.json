@@ -73,7 +73,7 @@
                 "tag_icon": "\uf412 "
                 },
                 "template": " {{ .HEAD }} ",
-                "foreground": "p:text",
+                "foreground": "p:base",
                 "powerline_symbol": "\ue0b0",
                 "background": "p:lavender",
                 "type": "git",
