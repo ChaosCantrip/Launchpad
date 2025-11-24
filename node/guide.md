@@ -126,3 +126,9 @@ COPY package*.json ./
 RUN npm install --omit=dev
 CMD ["node", "dist/index.js"]
 ```
+
+## Cheeky Script to Do This :D
+
+```bash
+curl -sSL https://raw.githubusercontent.com/ChaosCantrip/Launchpad/main/node/install-example.sh | bash
+```
